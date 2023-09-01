@@ -1,0 +1,10 @@
+server:
+  port: 10086
+spring:
+  application:
+    name: server-admin
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
